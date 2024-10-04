@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin-bottom: 12px;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 23%;
+    box-shadow: 0 0 4px 3px pink;
+    padding: 1.5em;
+    margin-bottom: 40px;
+}
+
+.images {
+    width: 80%;
+}
+
+.title {
+    font-size: 1.4rem;
+}
+
+.rating,
+.price {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em 0;
+}
+
+.cart {
+    border-radius: 15px;
+    background: linear-gradient(white, coral);
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+
+.button {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+}
+
+.place {
+    border: 3px;
+    border-style: double;
+    border-color: blueviolet;
+}
+
+#cartItems {
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin: 20px;
+}
